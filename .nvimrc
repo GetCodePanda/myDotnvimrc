@@ -74,7 +74,7 @@ endif
 Plug 'honza/vim-snippets'
 
 "" Color
-Plug 'tomasr/molokai'
+"Plug 'tomasr/molokai'
 
 "*****************************************************************************
 "" Custom bundles
@@ -107,8 +107,8 @@ Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 ""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""                    SURENDAR ADDING PLUGIN                      ""
-""                                                                ""
+""                    SURENDAR ADDING PLUGIN                  
+""                                                           
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ""
@@ -138,6 +138,11 @@ Plug 'joshdick/onedark.vim'
 "emmet
 "
 Plug 'mattn/emmet-vim'
+
+"vim styled component
+"react styled component
+
+Plug 'fleischie/vim-styled-components'
 
 "*****************************************************************************
 "*****************************************************************************
@@ -648,7 +653,11 @@ let g:webdevicons_enable_ctrlp = 1
 let g:onedark_termcolors=256
 
 
-"""""""""""""""""""""""atom one dark theme 
+"""""""""""""""""""""""atom one dark theme
 let g:user_emmet_leader_key = '<C-S>'
 
 """"""""""""""""""""""emmet remap the ctrlY to ctrlS
+
+set guicursor=i:blinkwait700-blinkon400-blinkoff250
+set guicursor=n:blinkwait700-blinkon400-blinkoff250
+""""""""""""""""""""""""cursor blink
